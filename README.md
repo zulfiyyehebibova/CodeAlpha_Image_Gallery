@@ -15,4 +15,4 @@ This is my first project as a Web Development Intern at CodeAlpha (May 2026 Batc
 
 🚀 Live Demo
 You can view the live project here: 
-[Insert your GitHub Pages link here]
+https://zulfiyyehebibova.github.io/CodeAlpha_Image_Gallery/
