@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartoon Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🎬 Cartoon Image Gallery</h1>
+
+    <div class="buttons">
+      <button onclick="filterImages('all')">All</button>
+      <button onclick="filterImages('regular')">Regular Show</button>
+      <button onclick="filterImages('adventure')">Adventure Time</button>
+      <button onclick="filterImages('gumball')">Gumball</button>
+      <button onclick="filterImages('scooby')">Scooby Doo</button>
+      <button onclick="filterImages('ben10')">Ben10</button>
+    </div>
+
+    <div class="gallery">
+
+  <div class="card regular">
+    <img src="https://d32qys9a6wm9no.cloudfront.net/images/tvs/backdrop/80/7bd0327ae883ad4030efe217faebcafa_1280x720.jpg?t=1640007601">
+    <div class="overlay">
+      <h3>Regular Show</h3>
+    </div>
+  </div>
+
+  <div class="card adventure">
+    <img src="https://imgix.bustle.com/fatherly/2018/05/adventure-time.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg">
+    <div class="overlay">
+      <h3>Adventure Time</h3>
+    </div>
+  </div>
+
+  <div class="card gumball">
+    <img src="https://cdn.iview.abc.net.au/thumbs/i/zw/ZW4786A_69c5ca8d9f599_3600.jpg">
+    <div class="overlay">
+      <h3>Amazing World of Gumball</h3>
+    </div>
+  </div>
+
+  <div class="card scooby">
+    <img src="https://static0.moviewebimages.com/wordpress/wp-content/uploads/2022/07/scooby-doo-2020.jpg">
+    <div class="overlay">
+      <h3>Scooby Doo</h3>
+    </div>
+  </div>
+
+  <div class="card ben10">
+    <img src="https://preview.redd.it/ben-10-ultimate-alien-was-the-best-version-v0-9cpjmsamcwpf1.jpeg?auto=webp&s=f1a5cdb1148c14367bee863f21afeb224edb866f">
+    <div class="overlay">
+      <h3>Ben10 Ultimate Alien</h3>
+    </div>
+  </div>
+
+  <div class="card regular">
+    <img src="https://i.pinimg.com/736x/49/6c/7d/496c7dfca90eb26ff3ed93fd82ae0e72.jpg">
+    <div class="overlay">
+      <h3>Mordecai & Rigby</h3>
+    </div>
+  </div>
+
+  <div class="card adventure">
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/1152f15c3600fc91a9e3e3b3b35dfc3d9214598dfa338ba9bd1d8dd71a7846d7._SX1080_FMjpg_.jpg">
+    <div class="overlay">
+      <h3>Finn & Jake</h3>
+    </div>
+  </div>
+
+  <div class="card gumball">
+    <img src="https://www.pluggedin.com/wp-content/uploads/2025/08/web-topper-44.jpg">
+    <div class="overlay">
+      <h3>Gumball & Darwin</h3>
+    </div>
+  </div>
+
+  <div class="card scooby">
+    <img src="https://pbs.twimg.com/media/G0vCF_mWMAAvwVX.jpg">
+    <div class="overlay">
+      <h3>Scooby & Shaggy</h3>
+    </div>
+  </div>
+
+  <div class="card ben10">
+    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2024/03/kevin-and-ben-together-in-ben-10-ultimate-alien.png?q=70&fit=contain&w=750&h=422&dpr=1">
+    <div class="overlay">
+      <h3>Ben & Kevin</h3>
+    </div>
+  </div>
+
+  <div class="card regular">
+    <img src="https://preview.redd.it/how-do-you-guys-feel-about-cj-and-mordecai-v0-nu98hjdwo2ca1.jpg?width=1080&crop=smart&auto=webp&s=8565a7fa605f8df04fde98f161f9b8857cd2e8db">
+    <div class="overlay">
+      <h3>Mordecai & CJ</h3>
+    </div>
+  </div>
+
+  <div class="card adventure">
+    <img src="https://static01.nyt.com/images/2018/09/01/arts/01adventuretime/merlin_58889161_e3bc6259-6296-4e95-9b2f-85f0b7ffd932-superJumbo.jpg">
+    <div class="overlay">
+      <h3>Finn & Princess Bubblegum</h3>
+    </div>
+  </div>
+
+  <div class="card gumball">
+    <img src="https://m.media-amazon.com/images/M/MV5BNmM4NDhiOTMtYzJkMi00ZGQyLWJlM2ItMTk0YmFjYTUzMWRkXkEyXkFqcGc@._V1_.jpg">
+    <div class="overlay">
+      <h3>Gumball & Penny</h3>
+    </div>
+  </div>
+
+  <div class="card scooby">
+    <img src="https://i.ytimg.com/vi/9Ryy3H3T-Q0/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGDggRCh_MA8=&rs=AOn4CLDvNtYemzXwE-YXVrEUUGGHLA4Lpg">
+    <div class="overlay">
+      <h3>Fred & Daphne</h3>
+    </div>
+  </div>
+
+  <div class="card ben10">
+    <img src="https://i.redd.it/e6ckis0msrha1.png">
+    <div class="overlay">
+      <h3>Kevin & Gwen</h3>
+    </div>
+  </div>
+
+</div>
+
+  <!-- LIGHTBOX -->
+
+  <div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">
+      <i class="fa-solid fa-angle-left"></i>
+    </button>
+
+    <img class="lightbox-img">
+
+    <button class="next">
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
